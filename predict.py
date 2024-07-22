@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from model.preprocess import load_scaler, preprocess_data
+from preprocess import load_scaler, preprocess_data
 import tensorflow as tf
 
 def load_model():
