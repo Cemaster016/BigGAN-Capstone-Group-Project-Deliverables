@@ -1,5 +1,5 @@
 import streamlit as st
-import home, predict, about
+from pages import home, predict, about
 
 # Sidebar for navigation
 st.sidebar.title("Navigation")
