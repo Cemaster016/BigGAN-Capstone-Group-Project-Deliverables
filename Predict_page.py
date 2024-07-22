@@ -4,9 +4,7 @@ import numpy as np
 import io
 
 
-import tensorflow as tf
 
-from tf.keras.models import load_model
 
 @st.cache(allow_output_mutation=True)
 def load_models():
