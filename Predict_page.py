@@ -3,10 +3,6 @@ import streamlit as st
 import numpy as np
 import io
 
-
-
-
-@st.cache(allow_output_mutation=True)
 def load_models():
   Elec_model = load_model('Elec_model.h5')
   Elec_model._make_predict_function()
